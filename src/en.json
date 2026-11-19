@@ -1,0 +1,119 @@
+{
+  "lang": "en",
+  "title": "Say What Matters",
+  "tagline": "the manager, the IT professional, and the agent",
+  "meta": "The manager already knows the hardest part: how the business works. They just need to learn to talk to the agent. The 5-4-3 rule, four new IT roles, and ready-to-copy templates. Free, from INEMA.CLUB.",
+  "nav": {"gestor": "Manager", "regra": "5-4-3 Rule", "tecnico": "IT Professional", "kit": "Kit", "video": "Video", "github": "GitHub", "tema": "Toggle theme"},
+  "hero": {
+    "chip": "AI agents · for managers and IT teams",
+    "h1": "Say What <span class=\"amb\">Matters</span>",
+    "lead": "As a manager, you already know the hardest part: how your business works. You just need to learn how to talk to the agent.",
+    "cta1": "Start with the 5-4-3 rule",
+    "cta2": "View on GitHub",
+    "alt": "Banner: Say What Matters — the manager already knows the hardest part; they just need to talk to the agent"
+  },
+  "resumo_chip": "In brief",
+  "resumo": "This is a free guide for anyone who wants to put AI agents to work in a company. The central idea: the manager already knows the processes, customers, suppliers, and team—that is the hardest part—and only needs to learn how to pass that knowledge to the agent. That is what the 5-4-3 rule is for: five questions, four levels of autonomy, and three test cases. The guide also shows how an IT professional's role changes, from builder to mentor, auditor, trainer, and consultant. It includes ready-to-copy templates and requires no programming.",
+  "tese": {
+    "chip": "The team",
+    "h2": "Three roles, one team",
+    "sub": "The agent works fast. What it lacks is business context and someone to check its work. That is where the manager and IT professional come in.",
+    "alt_grade": "Grid banner: the manager, 5 questions, 4 levels, 3 cases, the IT professional, 4 roles",
+    "cards": [
+      ["🧭", "The manager says what and why", "Knows the process, customer, supplier, and team. Clearly passes that knowledge to the agent."],
+      ["🛠️", "The IT professional ensures how", "Turns the request into instructions, tests them, looks for risks, and proves they work."],
+      ["🤖", "The agent executes", "Works at the agreed autonomy level and calls a person when something falls outside the plan."]
+    ]
+  },
+  "gestor": {
+    "chip": "The manager",
+    "h2": "You already know the hardest part",
+    "img": "02-gestor-sabe.jpg",
+    "img_alt": "Manager surrounded by icons for processes, customers, suppliers, and team, with a robot beside them waiting for instructions",
+    "texto": ["Think about what you carry in your head: how each process works, what customers complain about, which supplier is late, who on the team handles what. No AI model knows this. That knowledge is yours.", "The agent has the capability, but not the context. No one outside the business can provide that context better than you. You do not need to learn programming. You need to learn how to talk to the agent, just as you already talk to a new employee."],
+    "sabe_h3": "What only you know",
+    "sabe": [["⚙️", "Processes", "how each thing is done and why"], ["🙋", "Customers", "what they ask for and complain about"], ["🚚", "Suppliers", "who delivers and who is late"], ["👥", "Team", "who handles what"]]
+  },
+  "regra": {
+    "chip": "5-4-3 Rule",
+    "h2": "Five questions, four levels, three cases",
+    "sub": "An easy way to remember how to pass your business knowledge to the agent. Copy-ready templates are in the kit.",
+    "partes": [
+      {"id": "cinco", "num": "5", "nome": "questions", "titulo": "Onboard the agent like a new employee", "img": "03-funcionario-novo.jpg",
+       "img_alt": "Manager welcoming a robot as a new employee, with a badge and onboarding folder",
+       "texto": "Before assigning any task, write down the same answers you would give someone starting today. Then replace the word person with agent: it is the same list.",
+       "itens": ["What is the goal of the task?", "What context and information are needed?", "Which tools can be used?", "What can be done independently, and what needs your approval?", "How will you know if the result is good?"]},
+      {"id": "quatro", "num": "4", "nome": "levels", "titulo": "Decide how much it can do on its own", "img": "04-autonomia.jpg",
+       "img_alt": "Manager adjusting a panel with four levers, from red to green",
+       "texto": "Assign a level to each action. The greater the impact of an action, the more you should be involved.",
+       "itens": ["0 · hands off — forwards it to a person (e.g., cancel a contract)", "1 · proposes — prepares it and waits for your approval (e.g., a refund)", "2 · does and tells — carries it out and notifies the person responsible (e.g., reschedule an appointment)", "3 · does it alone — carries it out and records it (e.g., answer a frequently asked question)"]},
+      {"id": "tres", "num": "3", "nome": "cases", "titulo": "Test before you trust", "img": "05-tres-casos.jpg",
+       "img_alt": "IT professional watching a robot face three boxes: one simple, one complicated, and one unusual",
+       "texto": "Before putting the agent to work, run three cases. If it gets all three right, it can start. If it gets one wrong, adjust the brief and test again.",
+       "itens": ["Routine: an everyday case", "Difficult: a case that calls for judgment", "Exception: something that almost never happens"]}
+    ]
+  },
+  "tecnico": {
+    "chip": "The IT professional",
+    "h2": "From builder to mentor",
+    "img": "06-tecnico-muda.jpg",
+    "img_alt": "On the left, an IT professional programming alone; on the right, the same person guiding people and a robot",
+    "texto": "IT professionals spent years building systems. Today, agents build fast. The value of the IT professional shifts: they stop being the builder and become the person who trains, checks, and guides.",
+    "img2": "07-quatro-papeis.jpg",
+    "img2_alt": "The same IT professional in four roles: mentor, auditor, trainer, and consultant",
+    "papeis": [
+      ["🤝", "Mentor", "Sits with the manager and helps turn the process into instructions, from the first draft through validation.", "Uses: 5-question brief"],
+      ["🔎", "Auditor", "Tests, looks for risks, and shows the evidence. Delivers a short report with what to do now, in 7 days, and in 30 days.", "Uses: 3-case rehearsal and report"],
+      ["🎓", "Trainer", "Prepares the team and agents using real company cases until each can get them right without help.", "Uses: the 3 cases as an exercise"],
+      ["🗺️", "Consultant", "Maps the processes and decides where the agent fits—and where AI is not needed.", "Uses: six-link map"]
+    ],
+    "prof": "These four roles are the four Professional 2030 training programs from INEMA.",
+    "prof_link": "Learn about Professional 2030"
+  },
+  "exemplo": {
+    "chip": "Example",
+    "h2": "A manager and IT professional at a bakery",
+    "img": "08-padaria.jpg",
+    "img_alt": "Bakery owner talking with the IT professional while the robot replies to orders on a phone",
+    "sub": "The owner wants an agent to reply to orders on WhatsApp.",
+    "passos": [
+      ["The owner answers the 5 questions", "Goal: record orders. Context: menu, prices, oven schedule. Approval: discounts and large orders."],
+      ["Sets the levels", "Answer menu questions: 3. Confirm an order: 2. Give a discount: 1. Cancel an order already paid for: 0."],
+      ["The IT professional, as mentor, writes the instructions", "Combines the answers in a brief that the agent reads every time."],
+      ["The IT professional, as auditor, tests the 3 cases", "Routine: 20 loaves for tomorrow. Difficult: a discount on a large order. Exception: a cake needed in an hour."],
+      ["The agent starts", "Each action has a defined level, and a person is called whenever something falls outside the plan."]
+    ]
+  },
+  "kit": {
+    "chip": "Kit",
+    "h2": "Copy and use",
+    "sub": "Five ready-to-use templates. The first two are for the manager; the other three are for the IT professional.",
+    "copiar": "Copy",
+    "copiado": "Copied",
+    "modelos": [
+      {"quem": "Manager", "titulo": "Agent brief (5 questions)", "p": "Answer these and paste them at the start of your conversation with the agent.",
+       "txt": "# Agent brief: <task name>\n(Replace the word person with agent: these are the questions for a new employee.)\n\n1. What is the goal of the task?\n2. What context and information are needed?\n3. Which tools can be used?\n4. What can be done independently, and what needs my approval?\n5. How will I know if the result is good?\n\nRule: if information is missing, do not assume. Stop and ask me."},
+      {"quem": "Manager", "titulo": "Autonomy table (4 levels)", "p": "One row per action. If in doubt, choose the lowest level.",
+       "txt": "| Action | Level | Meaning |\n|---|---|---|\n| Answer a frequently asked question | 3 · does it alone | carries it out and records it |\n| Reschedule an appointment | 2 · does and tells | carries it out and notifies the person responsible |\n| Refund | 1 · proposes | prepares it and waits for approval |\n| Cancel a contract | 0 · hands off | forwards it to a person |\n\nThe greater the impact of the action, the more a person should be involved."},
+      {"quem": "IT professional · auditor", "titulo": "3-case rehearsal", "p": "Paste this into the agent along with the brief. Use fictional data only.",
+       "txt": "I will paste a brief for an agent at my company. Play the role of that agent in a rehearsal.\nFor each case, say what you would do, at what autonomy level, and which part of the brief you based it on.\nIf information is missing, DO NOT assume: stop and say what is missing from the brief.\n\nCase 1 (routine): <an everyday case>\nCase 2 (difficult): <a case that calls for judgment>\nCase 3 (exception): <something that almost never happens>\n\n[paste the brief here]"},
+      {"quem": "IT professional · consultant", "titulo": "Six-link map", "p": "Fill this out with the manager for each process before deciding where the agent fits.",
+       "txt": "Process: <name>\n1. Input: what arrives and where it comes from\n2. Decisions: one per line; mark R (rule) or J (judgment)\n3. Actions: what gets done\n4. Checks: how it is verified\n5. Exceptions: what falls outside the norm and who decides\n6. Outcome: what comes out and who receives it\n\nTip: write from the end to the beginning. Every exception ends with a person."},
+      {"quem": "IT professional · auditor", "titulo": "One-page report", "p": "Give this to the manager after testing the agents.",
+       "txt": "1. One-page summary\n2. Inventory: which agents, what they do, and who is responsible for them\n3. Risks, impacts, and evidence\n4. Recommendations: now / 7 days / 30 days\n5. Limitations: what was not tested\n6. Follow-up proposal (optional)"}
+    ],
+    "mais_h3": "Explore further at INEMA",
+    "mais": [
+      ["Agent constitution", "house rules and difficult cases in a fill-in template", "https://inematds.github.io/constituicao-agentes/guia/"],
+      ["Agent architect's kit", "seven blocks that become an agent specification", "https://inematds.github.io/kit-arquiteto-agentes/"],
+      ["Managing agents on video", "the complete series on managing agents as a team", "https://inematds.github.io/gestor-de-agentes/videos/"],
+      ["Professional 2030", "training programs for consultants, auditors, mentors, and trainers", "https://eventos.inema.pro/prof2030/"]
+    ]
+  },
+  "video": {"chip": "Video", "h2": "The 5-4-3 rule on video", "sub": "The full explainer and a short reel to send to anyone who needs to hear this.", "longo": "Explainer (16:9)", "reel": "Reel (9:16)", "baixar": "Download MP4"},
+  "fim": {"chip": "Remember", "h2": "Everyone has a role", "img": "09-dupla.jpg",
+    "img_alt": "Manager, IT professional, and robot standing side by side in front of a board with three columns of icons",
+    "linhas": [["Manager", "says what matters, and why"], ["IT professional", "ensures how, and proves it works"], ["Agent", "executes at the agreed level"]],
+    "frase": "You do not need to learn programming. You need to learn to say what matters."},
+  "footer": {"stack": ["AI Agents", "Management", "Professional 2030", "Free"], "nota": "open and free guide"}
+}

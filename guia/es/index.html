@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Di lo que importa — el gerente, el técnico y el agente</title>
+<meta name="description" content="El gerente ya sabe lo más difícil: cómo funciona el negocio. Solo falta hablar con el agente. La regla 5-4-3, los cuatro nuevos roles de TI y modelos listos para copiar. Gratis, de INEMA.CLUB.">
+<link rel="alternate" hreflang="pt-BR" href="https://inematds.github.io/diga-o-que-importa/guia/"><link rel="alternate" hreflang="en" href="https://inematds.github.io/diga-o-que-importa/guia/en/"><link rel="alternate" hreflang="es" href="https://inematds.github.io/diga-o-que-importa/guia/es/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#0c0c10; --bg2:#14141b; --card:#16161e; --line:#272730;
+    --txt:#e9e9ee; --mut:#9a9aa6; --amb:#FACC15; --amb2:#f0c070; --sky:#38bdf8; --pro:#cbd5e1;
+    color-scheme:dark;
+  }
+  body.light{
+    --bg:#f6f7f9; --bg2:#eceef2; --card:#ffffff; --line:#e1e3ea;
+    --txt:#1a1a22; --mut:#5b5b68; --amb:#a16207; --amb2:#a16207; --sky:#0369a1; --pro:#b45309;
+    color-scheme:light;
+  }
+  body.light .hero .glow{opacity:.5}
+  body.light pre{background:#0e0e14;color:#d6d6e0}
+  body.light pre .c{color:#8a8a98}
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;background:var(--bg);color:var(--txt);font:16px/1.65 Inter,system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+  h1,h2,h3{font-family:Sora,sans-serif;line-height:1.15;margin:0}
+  a{color:var(--amb);text-decoration:none}
+  code,pre{font-family:"JetBrains Mono",monospace}
+  .wrap{max-width:1160px;margin:0 auto;padding:0 22px}
+  .mut{color:var(--mut)} .amb{color:var(--amb)}
+  .chip{display:inline-block;font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;color:var(--amb);font-weight:600;font-family:Sora}
+  nav{position:sticky;top:0;z-index:30;backdrop-filter:blur(12px);background:rgba(12,12,16,.78);border-bottom:1px solid var(--line)}
+  nav .wrap{display:flex;align-items:center;gap:22px;height:60px}
+  nav .brand{display:flex;align-items:center;gap:8px;font-family:Sora;font-weight:800;letter-spacing:-.02em;color:var(--amb)}
+  nav .brand .emoji{font-size:1.25rem}
+  nav .sep{color:var(--mut);opacity:.45}
+  nav .inema{color:var(--sky);font-weight:600;font-size:.88rem;font-family:Sora}
+  nav .inema:hover{filter:brightness(1.15)}
+  nav .pro{color:var(--pro);font-weight:600;font-size:.88rem;font-family:Sora}
+  nav .pro:hover{filter:brightness(1.15)}
+  nav .clubpro{display:inline-flex;align-items:center;gap:6px}
+  nav .links{margin-left:auto;display:flex;align-items:center;gap:20px;font-size:.92rem}
+  nav .links a.sec{color:var(--mut)} nav .links a.sec:hover{color:var(--txt)}
+  .lang{display:inline-flex;gap:2px;font-family:Sora;font-size:.78rem}
+  .lang a{color:var(--mut);padding:.2em .45em;border-radius:6px} .lang a.on{color:var(--amb);background:rgba(250,204,21,.12)}
+  .tgl{background:var(--bg2);border:1px solid var(--line);color:var(--txt);width:38px;height:38px;border-radius:10px;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;font-size:1.05rem}
+  .tgl:hover{border-color:var(--amb)}
+  .btn{display:inline-block;background:var(--amb);color:#1a1206;font-weight:600;padding:.6em 1.05em;border-radius:10px;font-family:Sora}
+  .btn.ghost{background:transparent;color:var(--txt);border:1px solid var(--line)}
+  @media(max-width:760px){nav .links a.sec{display:none}}
+  @media(max-width:520px){nav .wrap{gap:8px;padding:8px 14px;height:auto;flex-wrap:wrap} nav .links{gap:8px;margin-left:0;width:100%;justify-content:space-between} nav .btn{padding:.45em .7em;font-size:.82rem} .tgl{width:34px;height:34px}}
+  .hero{position:relative;overflow:hidden;border-bottom:1px solid var(--line)}
+  .hero .glow{position:absolute;inset:-40% -20% auto auto;width:70%;height:600px;background:radial-gradient(closest-side,rgba(250,204,21,.22),transparent 70%);pointer-events:none}
+  .hero .wrap{display:grid;grid-template-columns:1.1fr .9fr;gap:40px;align-items:center;padding:74px 22px}
+  .hero h1{font-size:clamp(2.2rem,5vw,3.5rem);font-weight:800;letter-spacing:-.025em}
+  .hero p.lead{font-size:1.18rem;color:var(--mut);margin:1.1em 0 1.6em;max-width:34ch}
+  .hero .cta{display:flex;gap:12px;flex-wrap:wrap}
+  .hero figure{margin:0;border-radius:16px;overflow:hidden;border:1px solid var(--line);box-shadow:0 30px 80px -30px #000}
+  .hero figure img{width:100%;display:block}
+  .resumo{padding:38px 0 34px;border-bottom:1px solid var(--line)}
+  .resumo p{font-size:1.12rem;line-height:1.7;max-width:74ch;margin:.55em 0 0}
+  @media(max-width:780px){.hero .wrap{grid-template-columns:1fr;padding:48px 22px}}
+  section{padding:62px 0;border-bottom:1px solid var(--line)}
+  section h2{font-size:clamp(1.5rem,3.4vw,2.1rem);font-weight:800;letter-spacing:-.02em}
+  section .sub{color:var(--mut);margin:.6em 0 2em;max-width:62ch}
+  .grid{display:grid;gap:16px}
+  .g3{grid-template-columns:repeat(3,1fr)} .g4{grid-template-columns:repeat(4,1fr)} .g2{grid-template-columns:repeat(2,1fr)}
+  @media(max-width:820px){.g3,.g4{grid-template-columns:1fr 1fr}}
+  @media(max-width:540px){.g2,.g3,.g4{grid-template-columns:1fr}}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:20px}
+  .card h3{font-size:1.05rem;margin-bottom:.4em}
+  .card p{color:var(--mut);font-size:.92rem;margin:0}
+  .num{display:inline-flex;width:30px;height:30px;align-items:center;justify-content:center;border-radius:8px;background:rgba(250,204,21,.14);color:var(--amb);font-family:Sora;font-weight:800;font-size:.9rem;margin-bottom:.7em}
+  .flow{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-top:10px}
+  .flow span{background:var(--bg2);border:1px solid var(--line);border-radius:999px;padding:.45em .9em;font-size:.85rem;font-family:Sora;font-weight:600}
+  .flow .arr{color:var(--amb);border:none;background:none;padding:0 .1em}
+  pre{background:#0a0a0e;border:1px solid var(--line);border-radius:12px;padding:16px 18px;overflow:auto;font-size:.86rem;line-height:1.6;color:#d6d6e0}
+  pre .c{color:#6f6f7c} pre .k{color:var(--amb2)} pre .s{color:#9ece6a}
+  .step{display:grid;grid-template-columns:46px minmax(0,1fr);gap:16px;margin-bottom:26px}
+  .step>div,.card{min-width:0}
+  p code,li code,td code{overflow-wrap:anywhere}
+  .step .b{width:46px;height:46px;border-radius:12px;background:var(--amb);color:#1a1206;font-family:Sora;font-weight:800;font-size:1.25rem;display:flex;align-items:center;justify-content:center}
+  .step h3{font-size:1.12rem;margin-bottom:.3em}
+  .step p{color:var(--mut);margin:.2em 0 .7em}
+  .ex{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+  @media(max-width:680px){.ex{grid-template-columns:1fr}}
+  .ex figure{margin:0;border-radius:14px;overflow:hidden;border:1px solid var(--line)}
+  .ex figure img{width:100%;display:block}
+  .ex figcaption{padding:12px 14px;font-size:.88rem;color:var(--mut);background:var(--card)}
+  .phase{display:flex;gap:14px;padding:16px 0;border-bottom:1px solid var(--line)}
+  .phase:last-child{border:none}
+  .phase .tag{flex:0 0 92px;font-family:Sora;font-weight:800;color:var(--amb)}
+  .phase .d strong{display:block;margin-bottom:.2em}
+  .phase .d span{color:var(--mut);font-size:.92rem}
+  footer{padding:46px 0;text-align:center;color:var(--mut);font-size:.9rem}
+  .pill{display:inline-block;border:1px solid var(--line);border-radius:999px;padding:.3em .8em;font-size:.78rem;color:var(--mut);margin:0 4px}
+</style>
+
+<style>
+  .ideia{display:grid;grid-template-columns:1fr 1fr;gap:28px;align-items:center;padding:34px 0;border-top:1px solid var(--line)}
+  .ideia:first-of-type{border-top:none}
+  .ideia:nth-child(even) figure{order:2}
+  @media(max-width:820px){.ideia{grid-template-columns:1fr}.ideia:nth-child(even) figure{order:0}}
+  .ideia figure,.ill{margin:0;border-radius:14px;overflow:hidden;border:1px solid var(--line)}
+  .ideia figure img,.ill img{width:100%;display:block;aspect-ratio:16/9;object-fit:cover}
+  .ideia h3{font-size:1.35rem;margin:.3em 0 .5em} .ideia p{color:var(--mut);margin:.2em 0 .8em}
+  .rot{font-family:Sora;font-weight:800;color:var(--amb);font-size:.95rem;letter-spacing:.08em}
+  .tip{border-left:3px solid var(--amb);background:rgba(250,204,21,.08);padding:12px 16px;border-radius:0 10px 10px 0;margin:14px 0 0;color:var(--txt)}
+  .two{display:grid;grid-template-columns:1fr 1fr;gap:22px} @media(max-width:820px){.two{grid-template-columns:1fr}}
+  .box{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:20px;min-width:0}
+  .box h3{font-size:1.05rem;margin-bottom:.4em} .box p{color:var(--mut);margin:.2em 0 .8em}
+  .box pre{white-space:pre-wrap;overflow-wrap:anywhere;margin:0}
+  .copy{margin-top:12px;font-size:.85rem;padding:.45em .9em}
+  .ladder{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px;margin-top:22px}
+  .steps{display:flex;align-items:flex-end;gap:10px}
+  .steps .d{flex:1;min-width:0;border:2px solid var(--amb);border-radius:10px;padding:12px;opacity:0;animation:up .5s ease-out forwards}
+  .steps .d b{display:block;font-family:Sora;font-weight:800;font-size:1.5rem;color:var(--amb)}
+  .steps .d span{font-size:.92rem;line-height:1.3}
+  @media(max-width:700px){.steps{flex-direction:column;align-items:stretch}.steps .d{min-height:0!important;margin-left:calc(var(--i)*14px)}}
+  @keyframes up{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+  @media(prefers-reduced-motion:reduce){.steps .d{animation:none;opacity:1}}
+  .vids{display:grid;grid-template-columns:2fr 1fr;gap:20px;align-items:start} @media(max-width:820px){.vids{grid-template-columns:1fr}}
+  .vids video{width:100%;border-radius:14px;border:1px solid var(--line);background:#000;display:block}
+  .vids .v916 video{max-width:360px;margin:0 auto}
+  .vids h3{font-size:1rem;margin:0 0 .6em} .vids p{margin:.6em 0 0;font-size:.88rem}
+  ul.check{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:1fr 1fr;gap:12px}
+  @media(max-width:700px){ul.check{grid-template-columns:1fr}}
+  ul.check li{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px 14px 46px;position:relative}
+  ul.check li::before{content:"";position:absolute;left:16px;top:16px;width:18px;height:18px;border:2px solid var(--amb);border-radius:5px}
+  .ill{margin:0;border-radius:14px;overflow:hidden;border:1px solid var(--line)}
+  .big{font-family:Sora;font-weight:800;color:var(--amb);font-size:1.1rem;letter-spacing:.06em;text-transform:uppercase;display:flex;align-items:baseline;gap:10px}
+  .big span{font-size:3.4rem;line-height:1}
+  ul.lista{margin:.4em 0 0;padding-left:1.2em} ul.lista li{margin:.35em 0}
+  .minis{display:grid;grid-template-columns:repeat(4,1fr);gap:12px} @media(max-width:820px){.minis{grid-template-columns:1fr 1fr}}
+  .mini{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px;display:flex;flex-direction:column;gap:4px}
+  .mini .ic{font-size:1.4rem} .mini span:last-child{color:var(--mut);font-size:.9rem}
+  .papeis{display:grid;grid-template-columns:1fr 1fr;gap:12px} @media(max-width:600px){.papeis{grid-template-columns:1fr}}
+  .papel h3{font-size:1.02rem} .papel p{font-size:.92rem} .papel .usa{color:var(--amb);font-size:.85rem;margin-top:.4em}
+  ol.passos{list-style:none;counter-reset:p;padding:0;margin:0;display:grid;gap:12px}
+  ol.passos li{counter-increment:p;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 14px 12px 54px;position:relative;display:flex;flex-direction:column;gap:3px}
+  ol.passos li::before{content:counter(p);position:absolute;left:14px;top:12px;width:28px;height:28px;border-radius:50%;background:var(--amb);color:#1a1206;font:800 .95rem/28px Sora;text-align:center}
+  ol.passos li span{color:var(--mut);font-size:.92rem}
+  .modelos{display:grid;grid-template-columns:1fr 1fr;gap:18px} @media(max-width:820px){.modelos{grid-template-columns:1fr}}
+  .grid.g4{grid-template-columns:repeat(4,1fr)} @media(max-width:900px){.grid.g4{grid-template-columns:1fr 1fr}} @media(max-width:540px){.grid.g4{grid-template-columns:1fr}}
+  a.card.link{color:var(--txt)} a.card.link:hover{border-color:var(--amb)}
+  table.cola{width:100%;border-collapse:collapse} table.cola td{padding:12px;border-bottom:1px solid var(--line)} table.cola td:first-child{font-family:Sora;font-weight:800;color:var(--amb);white-space:nowrap}
+</style>
+</head>
+<body>
+<nav><div class="wrap">
+  <a class="brand" href="./"><span class="emoji">🗣️</span> Di lo que importa</a>
+  <span class="sep">|</span>
+  <span class="clubpro">
+    <a class="inema" href="https://inema.club" target="_blank" rel="noopener">INEMA.CLUB</a>
+    <span class="sep">-</span>
+    <a class="pro" href="https://inema.pro" target="_blank" rel="noopener">PRO</a>
+  </span>
+  <div class="links">
+    <a class="sec" href="#gestor">Gerente</a><a class="sec" href="#regra">Regla 5-4-3</a><a class="sec" href="#tecnico">Técnico</a><a class="sec" href="#kit">Kit</a><a class="sec" href="#video">Video</a>
+    <span class="lang"><a href="../">PT</a><a href="../en/">EN</a><a class="on" href="../es/">ES</a></span>
+    <button class="tgl" id="themeToggle" aria-label="Cambiar tema" title="Cambiar tema">🌙</button>
+    <a class="btn" href="https://github.com/inematds/diga-o-que-importa" target="_blank" rel="noopener">GitHub</a>
+  </div>
+</div></nav>
+
+<header class="hero" id="top">
+  <div class="glow"></div>
+  <div class="wrap">
+    <div>
+      <span class="chip">Agentes de IA · para gerentes y para TI</span>
+      <h1>Di lo que <span class="amb">importa</span></h1>
+      <p class="lead">Tú, gerente, ya sabes lo más difícil: cómo funciona tu negocio. Solo te falta aprender a hablar con el agente.</p>
+      <div class="cta"><a class="btn" href="#regra">Empezar por la regla 5-4-3</a><a class="btn ghost" href="https://github.com/inematds/diga-o-que-importa" target="_blank" rel="noopener">Ver en GitHub</a></div>
+    </div>
+    <figure><img src="../assets/banner-es.jpg" alt="Banner: Di lo que importa — el gerente ya sabe lo más difícil, solo falta hablar con el agente"></figure>
+  </div>
+</header>
+<section id="resumo" class="resumo"><div class="wrap"><span class="chip">En resumen</span><p>Esta es una guía gratis para quienes quieren poner a trabajar agentes de IA en una empresa. La idea central: el gerente ya conoce los procesos, los clientes, los proveedores y el equipo, que es la parte más difícil, y solo necesita aprender a transmitirle todo eso al agente. Para eso existe la regla 5-4-3: cinco preguntas, cuatro niveles de autonomía y tres casos de prueba. La guía también muestra cómo cambia el papel del técnico de TI: pasa de construir a ser mentor, auditor, entrenador y consultor. Incluye modelos listos para copiar y no hace falta programar.</p></div></section>
+<section id="time"><div class="wrap">
+  <span class="chip">El equipo</span><h2>Tres roles, un equipo</h2><p class="sub">El agente trabaja rápido. Lo que no tiene es el contexto del negocio ni a alguien que revise su trabajo. Ahí es donde entran el gerente y el técnico.</p>
+  <figure style="margin:0 0 26px;border-radius:16px;overflow:hidden;border:1px solid var(--line);box-shadow:0 30px 80px -30px #000"><img src="../assets/banner-grade-es.jpg" alt="Banner en cuadrícula: el gerente, 5 preguntas, 4 niveles, 3 casos, el técnico, 4 roles" loading="lazy" style="width:100%;display:block"></figure>
+  <div class="grid g3"><div class="card"><h3>🧭 El gerente dice qué y por qué</h3><p>Conoce el proceso, al cliente, al proveedor y al equipo. Se lo explica al agente con claridad.</p></div><div class="card"><h3>🛠️ El técnico garantiza el cómo</h3><p>Convierte el pedido en instrucciones, hace pruebas, busca riesgos y demuestra que funciona.</p></div><div class="card"><h3>🤖 El agente ejecuta</h3><p>Trabaja con el nivel de autonomía acordado y llama a una persona cuando algo se sale de lo acordado.</p></div></div>
+</div></section>
+<section id="gestor"><div class="wrap">
+  <span class="chip">El gerente</span><h2>Tú ya sabes lo más difícil</h2>
+  <div class="two" style="align-items:center;margin-top:18px"><figure class="ill"><img src="../assets/02-gestor-sabe.jpg" alt="Gerente rodeado de íconos de procesos, clientes, proveedores y equipo, con un robot al lado esperando instrucciones" loading="lazy"></figure><div><p>Piensa en todo lo que tienes en la cabeza: cómo funciona cada proceso, de qué se queja el cliente, qué proveedor se retrasa, quién del equipo resuelve cada cosa. Ningún modelo de IA lo sabe. Ese conocimiento es tuyo.</p><p>El agente tiene la capacidad, pero no el contexto. Nadie de afuera puede aportar ese contexto mejor que tú. Lo que te falta no es aprender a programar. Es aprender a hablar con el agente, igual que ya hablas con un empleado nuevo.</p></div></div>
+  <h3 style="margin:28px 0 12px">Lo que solo tú sabes</h3><div class="minis"><div class="mini"><span class="ic">⚙️</span><b>Procesos</b><span>cómo se hace cada cosa y por qué</span></div><div class="mini"><span class="ic">🙋</span><b>Clientes</b><span>qué piden y de qué se quejan</span></div><div class="mini"><span class="ic">🚚</span><b>Proveedores</b><span>quién entrega y quién se retrasa</span></div><div class="mini"><span class="ic">👥</span><b>Equipo</b><span>quién resuelve cada cosa</span></div></div>
+</div></section>
+<section id="regra"><div class="wrap">
+  <span class="chip">Regla 5-4-3</span><h2>Cinco preguntas, cuatro niveles, tres casos</h2><p class="sub">Una forma fácil de recordar cómo explicarle tu negocio al agente. Los modelos para copiar están en el kit.</p>
+  <article class="ideia" id="cinco">
+  <figure class="ill"><img src="../assets/03-funcionario-novo.jpg" alt="Gerente dándole la bienvenida a un robot como empleado nuevo, con credencial y carpeta de integración" loading="lazy"></figure>
+  <div><div class="big"><span>5</span>preguntas</div><h3>Integra al agente como a un empleado nuevo</h3><p>Antes de pedir cualquier tarea, responde por escrito las mismas preguntas que le harías a alguien que empezó hoy. Después cambia la palabra persona por agente: es la misma lista.</p>
+  <ul class="lista"><li>¿Cuál es el objetivo de la tarea?</li><li>¿Qué contexto e información se necesitan?</li><li>¿Qué herramientas se pueden usar?</li><li>¿Qué puede hacer por su cuenta y qué necesita tu aprobación?</li><li>¿Cómo sabrás si quedó bien?</li></ul></div>
+</article><article class="ideia" id="quatro">
+  <figure class="ill"><img src="../assets/04-autonomia.jpg" alt="Gerente ajustando un panel con cuatro palancas, del rojo al verde" loading="lazy"></figure>
+  <div><div class="big"><span>4</span>niveles</div><h3>Decide cuánto puede hacer por su cuenta</h3><p>Cada acción recibe un nivel. Cuanto mayor sea el impacto de la acción, más participas.</p>
+  <ul class="lista"><li>0 · no toca — se lo pasa a una persona (ej.: cancelar un contrato)</li><li>1 · propone — prepara la acción y espera tu aprobación (ej.: un reembolso)</li><li>2 · hace y avisa — ejecuta y avisa a la persona responsable (ej.: cambiar una cita)</li><li>3 · hace por su cuenta — ejecuta y deja registro (ej.: responder una pregunta frecuente)</li></ul></div>
+</article><article class="ideia" id="tres">
+  <figure class="ill"><img src="../assets/05-tres-casos.jpg" alt="Técnica observando al robot frente a tres cajas: una sencilla, una complicada y una extraña" loading="lazy"></figure>
+  <div><div class="big"><span>3</span>casos</div><h3>Prueba antes de confiar</h3><p>Antes de poner al agente a trabajar, prueba tres casos. Si resuelve los tres, puede empezar. Si se equivoca, ajusta la ficha y vuelve a probar.</p>
+  <ul class="lista"><li>Común: un caso del día a día</li><li>Difícil: uno que exige criterio</li><li>Excepción: algo que casi nunca ocurre</li></ul></div>
+</article>
+</div></section>
+<section id="tecnico"><div class="wrap">
+  <span class="chip">El técnico</span><h2>De construir a formar</h2>
+  <div class="two" style="align-items:center;margin-top:18px"><figure class="ill"><img src="../assets/06-tecnico-muda.jpg" alt="A la izquierda, la técnica programando sola; a la derecha, la misma técnica orientando a personas y a un robot" loading="lazy"></figure><p style="color:var(--txt);font-size:1.05rem">El técnico de TI pasó años construyendo sistemas. Hoy el agente construye rápido. El valor del técnico cambia de lugar: deja de ser quien construye y pasa a formar, revisar y orientar.</p></div>
+  <div class="two" style="margin-top:26px;align-items:start"><figure class="ill"><img src="../assets/07-quatro-papeis.jpg" alt="La misma técnica en cuatro roles: mentora, auditora, entrenadora y consultora" loading="lazy"></figure><div class="papeis"><div class="card papel"><h3>🤝 Mentor</h3><p>Se reúne con el gerente y ayuda a convertir el proceso en instrucciones, desde el primer borrador hasta la validación.</p><p class="usa">Usa: ficha de las 5 preguntas</p></div><div class="card papel"><h3>🔎 Auditor</h3><p>Hace pruebas, busca riesgos y muestra evidencias. Entrega un informe breve con qué hacer ahora, en 7 días y en 30 días.</p><p class="usa">Usa: prueba de los 3 casos e informe</p></div><div class="card papel"><h3>🎓 Entrenador</h3><p>Prepara al equipo y a los agentes con casos reales de la empresa, hasta que cada uno los resuelva sin ayuda.</p><p class="usa">Usa: los 3 casos como ejercicio</p></div><div class="card papel"><h3>🗺️ Consultor</h3><p>Hace un mapa de los procesos y decide dónde entra el agente y dónde ni siquiera hace falta usar IA.</p><p class="usa">Usa: mapa de seis eslabones</p></div></div></div>
+  <p class="tip" style="margin-top:22px">Estos cuatro roles corresponden a las cuatro formaciones de Profesional 2030 del INEMA. <a href="https://eventos.inema.pro/prof2030/" target="_blank" rel="noopener">Conocer Profesional 2030 ↗</a></p>
+</div></section>
+<section id="exemplo"><div class="wrap">
+  <span class="chip">Ejemplo</span><h2>Gerente y técnico en una panadería</h2><p class="sub">El dueño quiere un agente que responda los pedidos por WhatsApp.</p>
+  <div class="two" style="align-items:start"><figure class="ill"><img src="../assets/08-padaria.jpg" alt="Dueño de la panadería conversando con la técnica de TI mientras el robot responde pedidos en el celular" loading="lazy"></figure><ol class="passos"><li><b>El dueño responde las 5 preguntas</b><span>Objetivo: anotar pedidos. Contexto: menú, precios, horarios del horno. Aprobación: descuentos y pedidos grandes.</span></li><li><b>Define los niveles</b><span>Responder sobre el menú: 3. Confirmar un pedido: 2. Dar un descuento: 1. Cancelar un pedido ya pagado: 0.</span></li><li><b>El técnico, como mentor, escribe las instrucciones</b><span>Reúne las respuestas en una ficha que el agente consulta siempre.</span></li><li><b>El técnico, como auditor, prueba los 3 casos</b><span>Común: 20 panes para mañana. Difícil: un descuento en un pedido grande. Excepción: un pastel para dentro de una hora.</span></li><li><b>El agente empieza</b><span>Con el nivel de cada acción definido y una persona a quien llamar cuando algo se sale de lo acordado.</span></li></ol></div>
+</div></section>
+<section id="kit"><div class="wrap">
+  <span class="chip">Kit</span><h2>Copia y usa</h2><p class="sub">Cinco modelos listos. Los dos primeros son para el gerente; los otros tres, para el técnico.</p>
+  <div class="modelos"><div class="box"><span class="chip">Gerente</span><h3>Ficha del agente (5 preguntas)</h3><p>Responde y pega esto al comienzo de la conversación con el agente.</p><pre id="m0"># Ficha del agente: &lt;nombre de la tarea&gt;
+(Cambia la palabra persona por agente: son las preguntas para un empleado nuevo.)
+
+1. ¿Cuál es el objetivo de la tarea?
+2. ¿Qué contexto e información se necesitan?
+3. ¿Qué herramientas se pueden usar?
+4. ¿Qué puede hacer por su cuenta y qué necesita mi aprobación?
+5. ¿Cómo sabré si quedó bien?
+
+Regla: si falta información, no supongas. Detente y pregúntame.</pre>
+      <button class="btn copy" data-alvo="m0">Copiar</button></div><div class="box"><span class="chip">Gerente</span><h3>Tabla de autonomía (4 niveles)</h3><p>Una fila por acción. Si tienes dudas, elige el nivel más bajo.</p><pre id="m1">| Acción | Nivel | Significa |
+|---|---|---|
+| Responder una pregunta frecuente | 3 · hace por su cuenta | ejecuta y deja registro |
+| Cambiar una cita | 2 · hace y avisa | ejecuta y avisa a la persona responsable |
+| Reembolso | 1 · propone | prepara la acción y espera aprobación |
+| Cancelar un contrato | 0 · no toca | se lo pasa a una persona |
+
+Cuanto mayor sea el impacto de la acción, más participa una persona.</pre>
+      <button class="btn copy" data-alvo="m1">Copiar</button></div><div class="box"><span class="chip">Técnico · auditor</span><h3>Prueba de los 3 casos</h3><p>Pégala en el agente junto con la ficha. Usa solo datos ficticios.</p><pre id="m2">Voy a pegar la ficha de un agente de mi empresa. En este ensayo, actúa como ese agente.
+Para cada caso, di qué harías, con qué nivel de autonomía y basándote en qué parte de la ficha.
+Si falta información, NO supongas: detente y di qué falta en la ficha.
+
+Caso 1 (común): &lt;un caso del día a día&gt;
+Caso 2 (difícil): &lt;uno que exige criterio&gt;
+Caso 3 (excepción): &lt;algo que casi nunca ocurre&gt;
+
+[pega aquí la ficha]</pre>
+      <button class="btn copy" data-alvo="m2">Copiar</button></div><div class="box"><span class="chip">Técnico · consultor</span><h3>Mapa de seis eslabones</h3><p>Complétalo con el gerente para cada proceso antes de decidir dónde entra el agente.</p><pre id="m3">Proceso: &lt;nombre&gt;
+1. Entrada: qué llega y de dónde
+2. Decisiones: una por línea; marca R (regla) o J (juicio)
+3. Acciones: qué se hace
+4. Verificaciones: cómo se comprueba
+5. Excepciones: qué se sale de lo normal y quién decide
+6. Resultado: qué sale y para quién
+
+Consejo: escribe desde el final hacia el principio. Toda excepción termina en manos de una persona.</pre>
+      <button class="btn copy" data-alvo="m3">Copiar</button></div><div class="box"><span class="chip">Técnico · auditor</span><h3>Informe de una página</h3><p>Entrégalo al gerente después de probar los agentes.</p><pre id="m4">1. Resumen de una página
+2. Inventario: qué agentes hay, qué hacen y quién responde por ellos
+3. Riesgos, impactos y evidencias
+4. Recomendaciones: ahora / 7 días / 30 días
+5. Limitaciones: qué no se probó
+6. Propuesta de seguimiento (opcional)</pre>
+      <button class="btn copy" data-alvo="m4">Copiar</button></div></div>
+  <h3 style="margin:34px 0 12px">Para profundizar en INEMA</h3><div class="grid g4"><a class="card link" href="https://inematds.github.io/constituicao-agentes/guia/" target="_blank" rel="noopener"><h3>Constitución de los agentes ↗</h3><p>las reglas de la casa y los casos difíciles, en un modelo para completar</p></a><a class="card link" href="https://inematds.github.io/kit-arquiteto-agentes/" target="_blank" rel="noopener"><h3>Kit del arquitecto de agentes ↗</h3><p>siete bloques que se convierten en la especificación de un agente</p></a><a class="card link" href="https://inematds.github.io/gestor-de-agentes/videos/" target="_blank" rel="noopener"><h3>Gestión de agentes en video ↗</h3><p>la serie completa sobre cómo gestionar agentes como un equipo</p></a><a class="card link" href="https://eventos.inema.pro/prof2030/" target="_blank" rel="noopener"><h3>Profesional 2030 ↗</h3><p>las formaciones de consultor, auditor, mentor y entrenador</p></a></div>
+</div></section>
+<section id="video"><div class="wrap">
+  <span class="chip">Video</span><h2>La regla 5-4-3 en video</h2><p class="sub">El video explicativo completo y un reel corto para compartir con quien necesita escuchar esto.</p>
+  <div class="vids">
+    <div><h3>Explicativo (16:9)</h3><video controls preload="metadata" playsinline poster="../assets/poster-longo.jpg"><source src="https://github.com/inematds/diga-o-que-importa/releases/download/video-v1.0.0/diga-o-que-importa-pt.mp4" type="video/mp4"></video>
+      <p><a href="https://github.com/inematds/diga-o-que-importa/releases/download/video-v1.0.0/diga-o-que-importa-pt.mp4">Descargar MP4</a> · <a href="https://www.youtube.com/watch?v=nUSIuuwwpYk">YouTube</a></p></div>
+    <div class="v916"><h3>Reel (9:16)</h3><video controls preload="metadata" playsinline poster="../assets/poster-reel.jpg" style="aspect-ratio:9/16;object-fit:cover"><source src="https://github.com/inematds/diga-o-que-importa/releases/download/video-v1.0.0/diga-o-que-importa-reel.mp4" type="video/mp4"></video>
+      <p><a href="https://github.com/inematds/diga-o-que-importa/releases/download/video-v1.0.0/diga-o-que-importa-reel.mp4">Descargar MP4</a> · <a href="https://www.youtube.com/shorts/_ybdWtprQJU">YouTube</a></p></div>
+  </div>
+</div></section>
+<section id="fim"><div class="wrap">
+  <span class="chip">Para recordar</span><h2>Cada quien en su rol</h2>
+  <div class="two" style="align-items:center;margin-top:18px"><figure class="ill"><img src="../assets/09-dupla.jpg" alt="Gerente, técnica y robot uno al lado del otro frente a un tablero con tres columnas de íconos" loading="lazy"></figure><div class="box"><table class="cola"><tr><td>Gerente</td><td>dice qué importa y por qué</td></tr><tr><td>Técnico</td><td>garantiza el cómo y demuestra que funciona</td></tr><tr><td>Agente</td><td>ejecuta con el nivel acordado</td></tr></table></div></div>
+  <p class="tip" style="margin-top:22px"><strong>No necesitas aprender a programar. Necesitas aprender a decir lo que importa.</strong></p>
+</div></section>
+
+<footer>
+  <div class="wrap">
+    <div class="pill">Agentes de IA</div><div class="pill">Gestión</div><div class="pill">Profesional 2030</div><div class="pill">Gratis</div>
+    <p style="margin-top:18px">Di lo que importa · guía abierta y gratuita · <a href="https://github.com/inematds/diga-o-que-importa">inematds/diga-o-que-importa</a> · <a href="https://inema.club">INEMA.CLUB</a></p>
+  </div>
+</footer>
+<script>
+  (function(){
+    var KEY='diga-o-que-importa-theme', b=document.body, t=document.getElementById('themeToggle');
+    try{ if(localStorage.getItem(KEY)==='light'){ b.classList.add('light'); t.textContent='☀️'; } }catch(e){}
+    t.addEventListener('click',function(){ var light=b.classList.toggle('light'); t.textContent=light?'☀️':'🌙'; try{ localStorage.setItem(KEY, light?'light':'dark'); }catch(e){} });
+    document.querySelectorAll('.copy').forEach(function(bt){
+      bt.addEventListener('click',function(){
+        var txt=document.getElementById(bt.dataset.alvo).innerText;
+        (navigator.clipboard?navigator.clipboard.writeText(txt):Promise.reject()).then(function(){ var o=bt.textContent; bt.textContent='Copiado ✓'; setTimeout(function(){bt.textContent=o;},1600); }).catch(function(){});
+      });
+    });
+  })();
+</script>
+</body>
+</html>

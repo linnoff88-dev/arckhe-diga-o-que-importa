@@ -1,0 +1,119 @@
+{
+  "lang": "es",
+  "title": "Di lo que importa",
+  "tagline": "el gerente, el técnico y el agente",
+  "meta": "El gerente ya sabe lo más difícil: cómo funciona el negocio. Solo falta hablar con el agente. La regla 5-4-3, los cuatro nuevos roles de TI y modelos listos para copiar. Gratis, de INEMA.CLUB.",
+  "nav": {"gestor": "Gerente", "regra": "Regla 5-4-3", "tecnico": "Técnico", "kit": "Kit", "video": "Video", "github": "GitHub", "tema": "Cambiar tema"},
+  "hero": {
+    "chip": "Agentes de IA · para gerentes y para TI",
+    "h1": "Di lo que <span class=\"amb\">importa</span>",
+    "lead": "Tú, gerente, ya sabes lo más difícil: cómo funciona tu negocio. Solo te falta aprender a hablar con el agente.",
+    "cta1": "Empezar por la regla 5-4-3",
+    "cta2": "Ver en GitHub",
+    "alt": "Banner: Di lo que importa — el gerente ya sabe lo más difícil, solo falta hablar con el agente"
+  },
+  "resumo_chip": "En resumen",
+  "resumo": "Esta es una guía gratis para quienes quieren poner a trabajar agentes de IA en una empresa. La idea central: el gerente ya conoce los procesos, los clientes, los proveedores y el equipo, que es la parte más difícil, y solo necesita aprender a transmitirle todo eso al agente. Para eso existe la regla 5-4-3: cinco preguntas, cuatro niveles de autonomía y tres casos de prueba. La guía también muestra cómo cambia el papel del técnico de TI: pasa de construir a ser mentor, auditor, entrenador y consultor. Incluye modelos listos para copiar y no hace falta programar.",
+  "tese": {
+    "chip": "El equipo",
+    "h2": "Tres roles, un equipo",
+    "sub": "El agente trabaja rápido. Lo que no tiene es el contexto del negocio ni a alguien que revise su trabajo. Ahí es donde entran el gerente y el técnico.",
+    "alt_grade": "Banner en cuadrícula: el gerente, 5 preguntas, 4 niveles, 3 casos, el técnico, 4 roles",
+    "cards": [
+      ["🧭", "El gerente dice qué y por qué", "Conoce el proceso, al cliente, al proveedor y al equipo. Se lo explica al agente con claridad."],
+      ["🛠️", "El técnico garantiza el cómo", "Convierte el pedido en instrucciones, hace pruebas, busca riesgos y demuestra que funciona."],
+      ["🤖", "El agente ejecuta", "Trabaja con el nivel de autonomía acordado y llama a una persona cuando algo se sale de lo acordado."]
+    ]
+  },
+  "gestor": {
+    "chip": "El gerente",
+    "h2": "Tú ya sabes lo más difícil",
+    "img": "02-gestor-sabe.jpg",
+    "img_alt": "Gerente rodeado de íconos de procesos, clientes, proveedores y equipo, con un robot al lado esperando instrucciones",
+    "texto": ["Piensa en todo lo que tienes en la cabeza: cómo funciona cada proceso, de qué se queja el cliente, qué proveedor se retrasa, quién del equipo resuelve cada cosa. Ningún modelo de IA lo sabe. Ese conocimiento es tuyo.", "El agente tiene la capacidad, pero no el contexto. Nadie de afuera puede aportar ese contexto mejor que tú. Lo que te falta no es aprender a programar. Es aprender a hablar con el agente, igual que ya hablas con un empleado nuevo."],
+    "sabe_h3": "Lo que solo tú sabes",
+    "sabe": [["⚙️", "Procesos", "cómo se hace cada cosa y por qué"], ["🙋", "Clientes", "qué piden y de qué se quejan"], ["🚚", "Proveedores", "quién entrega y quién se retrasa"], ["👥", "Equipo", "quién resuelve cada cosa"]]
+  },
+  "regra": {
+    "chip": "Regla 5-4-3",
+    "h2": "Cinco preguntas, cuatro niveles, tres casos",
+    "sub": "Una forma fácil de recordar cómo explicarle tu negocio al agente. Los modelos para copiar están en el kit.",
+    "partes": [
+      {"id": "cinco", "num": "5", "nome": "preguntas", "titulo": "Integra al agente como a un empleado nuevo", "img": "03-funcionario-novo.jpg",
+       "img_alt": "Gerente dándole la bienvenida a un robot como empleado nuevo, con credencial y carpeta de integración",
+       "texto": "Antes de pedir cualquier tarea, responde por escrito las mismas preguntas que le harías a alguien que empezó hoy. Después cambia la palabra persona por agente: es la misma lista.",
+       "itens": ["¿Cuál es el objetivo de la tarea?", "¿Qué contexto e información se necesitan?", "¿Qué herramientas se pueden usar?", "¿Qué puede hacer por su cuenta y qué necesita tu aprobación?", "¿Cómo sabrás si quedó bien?"]},
+      {"id": "quatro", "num": "4", "nome": "niveles", "titulo": "Decide cuánto puede hacer por su cuenta", "img": "04-autonomia.jpg",
+       "img_alt": "Gerente ajustando un panel con cuatro palancas, del rojo al verde",
+       "texto": "Cada acción recibe un nivel. Cuanto mayor sea el impacto de la acción, más participas.",
+       "itens": ["0 · no toca — se lo pasa a una persona (ej.: cancelar un contrato)", "1 · propone — prepara la acción y espera tu aprobación (ej.: un reembolso)", "2 · hace y avisa — ejecuta y avisa a la persona responsable (ej.: cambiar una cita)", "3 · hace por su cuenta — ejecuta y deja registro (ej.: responder una pregunta frecuente)"]},
+      {"id": "tres", "num": "3", "nome": "casos", "titulo": "Prueba antes de confiar", "img": "05-tres-casos.jpg",
+       "img_alt": "Técnica observando al robot frente a tres cajas: una sencilla, una complicada y una extraña",
+       "texto": "Antes de poner al agente a trabajar, prueba tres casos. Si resuelve los tres, puede empezar. Si se equivoca, ajusta la ficha y vuelve a probar.",
+       "itens": ["Común: un caso del día a día", "Difícil: uno que exige criterio", "Excepción: algo que casi nunca ocurre"]}
+    ]
+  },
+  "tecnico": {
+    "chip": "El técnico",
+    "h2": "De construir a formar",
+    "img": "06-tecnico-muda.jpg",
+    "img_alt": "A la izquierda, la técnica programando sola; a la derecha, la misma técnica orientando a personas y a un robot",
+    "texto": "El técnico de TI pasó años construyendo sistemas. Hoy el agente construye rápido. El valor del técnico cambia de lugar: deja de ser quien construye y pasa a formar, revisar y orientar.",
+    "img2": "07-quatro-papeis.jpg",
+    "img2_alt": "La misma técnica en cuatro roles: mentora, auditora, entrenadora y consultora",
+    "papeis": [
+      ["🤝", "Mentor", "Se reúne con el gerente y ayuda a convertir el proceso en instrucciones, desde el primer borrador hasta la validación.", "Usa: ficha de las 5 preguntas"],
+      ["🔎", "Auditor", "Hace pruebas, busca riesgos y muestra evidencias. Entrega un informe breve con qué hacer ahora, en 7 días y en 30 días.", "Usa: prueba de los 3 casos e informe"],
+      ["🎓", "Entrenador", "Prepara al equipo y a los agentes con casos reales de la empresa, hasta que cada uno los resuelva sin ayuda.", "Usa: los 3 casos como ejercicio"],
+      ["🗺️", "Consultor", "Hace un mapa de los procesos y decide dónde entra el agente y dónde ni siquiera hace falta usar IA.", "Usa: mapa de seis eslabones"]
+    ],
+    "prof": "Estos cuatro roles corresponden a las cuatro formaciones de Profesional 2030 del INEMA.",
+    "prof_link": "Conocer Profesional 2030"
+  },
+  "exemplo": {
+    "chip": "Ejemplo",
+    "h2": "Gerente y técnico en una panadería",
+    "img": "08-padaria.jpg",
+    "img_alt": "Dueño de la panadería conversando con la técnica de TI mientras el robot responde pedidos en el celular",
+    "sub": "El dueño quiere un agente que responda los pedidos por WhatsApp.",
+    "passos": [
+      ["El dueño responde las 5 preguntas", "Objetivo: anotar pedidos. Contexto: menú, precios, horarios del horno. Aprobación: descuentos y pedidos grandes."],
+      ["Define los niveles", "Responder sobre el menú: 3. Confirmar un pedido: 2. Dar un descuento: 1. Cancelar un pedido ya pagado: 0."],
+      ["El técnico, como mentor, escribe las instrucciones", "Reúne las respuestas en una ficha que el agente consulta siempre."],
+      ["El técnico, como auditor, prueba los 3 casos", "Común: 20 panes para mañana. Difícil: un descuento en un pedido grande. Excepción: un pastel para dentro de una hora."],
+      ["El agente empieza", "Con el nivel de cada acción definido y una persona a quien llamar cuando algo se sale de lo acordado."]
+    ]
+  },
+  "kit": {
+    "chip": "Kit",
+    "h2": "Copia y usa",
+    "sub": "Cinco modelos listos. Los dos primeros son para el gerente; los otros tres, para el técnico.",
+    "copiar": "Copiar",
+    "copiado": "Copiado",
+    "modelos": [
+      {"quem": "Gerente", "titulo": "Ficha del agente (5 preguntas)", "p": "Responde y pega esto al comienzo de la conversación con el agente.",
+       "txt": "# Ficha del agente: <nombre de la tarea>\n(Cambia la palabra persona por agente: son las preguntas para un empleado nuevo.)\n\n1. ¿Cuál es el objetivo de la tarea?\n2. ¿Qué contexto e información se necesitan?\n3. ¿Qué herramientas se pueden usar?\n4. ¿Qué puede hacer por su cuenta y qué necesita mi aprobación?\n5. ¿Cómo sabré si quedó bien?\n\nRegla: si falta información, no supongas. Detente y pregúntame."},
+      {"quem": "Gerente", "titulo": "Tabla de autonomía (4 niveles)", "p": "Una fila por acción. Si tienes dudas, elige el nivel más bajo.",
+       "txt": "| Acción | Nivel | Significa |\n|---|---|---|\n| Responder una pregunta frecuente | 3 · hace por su cuenta | ejecuta y deja registro |\n| Cambiar una cita | 2 · hace y avisa | ejecuta y avisa a la persona responsable |\n| Reembolso | 1 · propone | prepara la acción y espera aprobación |\n| Cancelar un contrato | 0 · no toca | se lo pasa a una persona |\n\nCuanto mayor sea el impacto de la acción, más participa una persona."},
+      {"quem": "Técnico · auditor", "titulo": "Prueba de los 3 casos", "p": "Pégala en el agente junto con la ficha. Usa solo datos ficticios.",
+       "txt": "Voy a pegar la ficha de un agente de mi empresa. En este ensayo, actúa como ese agente.\nPara cada caso, di qué harías, con qué nivel de autonomía y basándote en qué parte de la ficha.\nSi falta información, NO supongas: detente y di qué falta en la ficha.\n\nCaso 1 (común): <un caso del día a día>\nCaso 2 (difícil): <uno que exige criterio>\nCaso 3 (excepción): <algo que casi nunca ocurre>\n\n[pega aquí la ficha]"},
+      {"quem": "Técnico · consultor", "titulo": "Mapa de seis eslabones", "p": "Complétalo con el gerente para cada proceso antes de decidir dónde entra el agente.",
+       "txt": "Proceso: <nombre>\n1. Entrada: qué llega y de dónde\n2. Decisiones: una por línea; marca R (regla) o J (juicio)\n3. Acciones: qué se hace\n4. Verificaciones: cómo se comprueba\n5. Excepciones: qué se sale de lo normal y quién decide\n6. Resultado: qué sale y para quién\n\nConsejo: escribe desde el final hacia el principio. Toda excepción termina en manos de una persona."},
+      {"quem": "Técnico · auditor", "titulo": "Informe de una página", "p": "Entrégalo al gerente después de probar los agentes.",
+       "txt": "1. Resumen de una página\n2. Inventario: qué agentes hay, qué hacen y quién responde por ellos\n3. Riesgos, impactos y evidencias\n4. Recomendaciones: ahora / 7 días / 30 días\n5. Limitaciones: qué no se probó\n6. Propuesta de seguimiento (opcional)"}
+    ],
+    "mais_h3": "Para profundizar en INEMA",
+    "mais": [
+      ["Constitución de los agentes", "las reglas de la casa y los casos difíciles, en un modelo para completar", "https://inematds.github.io/constituicao-agentes/guia/"],
+      ["Kit del arquitecto de agentes", "siete bloques que se convierten en la especificación de un agente", "https://inematds.github.io/kit-arquiteto-agentes/"],
+      ["Gestión de agentes en video", "la serie completa sobre cómo gestionar agentes como un equipo", "https://inematds.github.io/gestor-de-agentes/videos/"],
+      ["Profesional 2030", "las formaciones de consultor, auditor, mentor y entrenador", "https://eventos.inema.pro/prof2030/"]
+    ]
+  },
+  "video": {"chip": "Video", "h2": "La regla 5-4-3 en video", "sub": "El video explicativo completo y un reel corto para compartir con quien necesita escuchar esto.", "longo": "Explicativo (16:9)", "reel": "Reel (9:16)", "baixar": "Descargar MP4"},
+  "fim": {"chip": "Para recordar", "h2": "Cada quien en su rol", "img": "09-dupla.jpg",
+    "img_alt": "Gerente, técnica y robot uno al lado del otro frente a un tablero con tres columnas de íconos",
+    "linhas": [["Gerente", "dice qué importa y por qué"], ["Técnico", "garantiza el cómo y demuestra que funciona"], ["Agente", "ejecuta con el nivel acordado"]],
+    "frase": "No necesitas aprender a programar. Necesitas aprender a decir lo que importa."},
+  "footer": {"stack": ["Agentes de IA", "Gestión", "Profesional 2030", "Gratis"], "nota": "guía abierta y gratuita"}
+}
