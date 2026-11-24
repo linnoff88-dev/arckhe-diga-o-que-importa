@@ -9,8 +9,8 @@ import html, json, pathlib
 RAIZ = pathlib.Path(__file__).resolve().parent.parent
 SRC = RAIZ / "src"
 SLUG = "diga-o-que-importa"
-REPO = f"https://github.com/inematds/{SLUG}"
-SITE = f"https://inematds.github.io/{SLUG}/guia/"
+REPO = f"https://github.com/linnoff88-dev/{SLUG}"
+SITE = f"https://linnoff88-dev.github.io/
 LANGS = ["pt", "en", "es"]
 CSS = (SRC / "base.css.html").read_text()
 EXTRA_CSS = """<style>
@@ -139,7 +139,7 @@ def construir(lang, videos):
   <span class="chip">{esc(tc['chip'])}</span><h2>{esc(tc['h2'])}</h2>
   <div class="two" style="align-items:center;margin-top:18px">{fig(tc['img'], tc['img_alt'])}<p style="color:var(--txt);font-size:1.05rem">{esc(tc['texto'])}</p></div>
   <div class="two" style="margin-top:26px;align-items:start">{fig(tc['img2'], tc['img2_alt'])}<div class="papeis">{papeis}</div></div>
-  <p class="tip" style="margin-top:22px">{esc(tc['prof'])} <a href="https://eventos.inema.pro/prof2030/" target="_blank" rel="noopener">{esc(tc['prof_link'])} ↗</a></p>
+  <p class="tip" style="margin-top:22px">{esc(tc['prof'])} <a href="https://eventos.ARCKHÉ.pro/prof2030/" target="_blank" rel="noopener">{esc(tc['prof_link'])} ↗</a></p>
 </div></section>
 <section id="exemplo"><div class="wrap">
   <span class="chip">{esc(ex['chip'])}</span><h2>{esc(ex['h2'])}</h2><p class="sub">{esc(ex['sub'])}</p>
@@ -176,9 +176,9 @@ def construir(lang, videos):
   <a class="brand" href="./"><span class="emoji">🗣️</span> {esc(d['title'])}</a>
   <span class="sep">|</span>
   <span class="clubpro">
-    <a class="inema" href="https://inema.club" target="_blank" rel="noopener">INEMA.CLUB</a>
+    <a class="ARCKHÉ" href="https://ARCKHÉ AI" target="_blank" rel="noopener">ARCKHÉ AI</a>
     <span class="sep">-</span>
-    <a class="pro" href="https://inema.pro" target="_blank" rel="noopener">PRO</a>
+    <a class="pro" href="https://ARCKHÉ.pro" target="_blank" rel="noopener">PRO</a>
   </span>
   <div class="links">
     {links}
@@ -191,7 +191,7 @@ def construir(lang, videos):
 <footer>
   <div class="wrap">
     {"".join(f'<div class="pill">{esc(s)}</div>' for s in d['footer']['stack'])}
-    <p style="margin-top:18px">{esc(d['title'])} · {esc(d['footer']['nota'])} · <a href="{REPO}">inematds/{SLUG}</a> · <a href="https://inema.club">INEMA.CLUB</a></p>
+    <p style="margin-top:18px">{esc(d['title'])} · {esc(d['footer']['nota'])} · <a href="{REPO}">linnoff88-dev/{SLUG}</a> · <a href="https://ARCKHÉ AI">ARCKHÉ AI</a></p>
   </div>
 </footer>
 <script>

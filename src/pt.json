@@ -2,7 +2,7 @@
   "lang": "pt-BR",
   "title": "Diga o que importa",
   "tagline": "o gestor, o técnico e o agente",
-  "meta": "O gestor já sabe o mais difícil: como o negócio funciona. Falta falar com o agente. A regra 5-4-3, os quatro novos papéis da TI e modelos prontos para copiar. Grátis, do INEMA.CLUB.",
+  "meta": "O gestor já sabe o mais difícil: como o negócio funciona. Falta falar com o agente. A regra 5-4-3, os quatro novos papéis da TI e modelos prontos para copiar. Grátis, do ARCKHÉ AI.",
   "nav": {"gestor": "Gestor", "regra": "Regra 5-4-3", "tecnico": "Técnico", "kit": "Kit", "video": "Vídeo", "github": "GitHub", "tema": "Alternar tema"},
   "hero": {
     "chip": "Agentes de IA · para gestores e para a TI",
@@ -67,7 +67,7 @@
       ["🎓", "Treinador", "Prepara a equipe e os agentes com casos reais da empresa, até cada um acertar sem ajuda.", "Usa: os 3 casos como exercício"],
       ["🗺️", "Consultor", "Mapeia os processos e decide onde o agente entra, e onde nem precisa de IA.", "Usa: mapa de seis elos"]
     ],
-    "prof": "Esses quatro papéis são as quatro formações do Profissional 2030 do INEMA.",
+    "prof": "Esses quatro papéis são as quatro formações do Profissional 2030 do ARCKHÉ.",
     "prof_link": "Conhecer o Profissional 2030"
   },
   "exemplo": {
@@ -102,12 +102,12 @@
       {"quem": "Técnico · auditor", "titulo": "Relatório de uma página", "p": "Para entregar ao gestor depois de testar os agentes.",
        "txt": "1. Resumo de uma página\n2. Inventário: quais agentes, o que fazem, quem responde por eles\n3. Riscos, impactos e evidências\n4. Recomendações: agora / 7 dias / 30 dias\n5. Limitações: o que não foi testado\n6. Proposta de acompanhamento (opcional)"}
     ],
-    "mais_h3": "Para ir mais fundo no INEMA",
+    "mais_h3": "Para ir mais fundo no ARCKHÉ",
     "mais": [
-      ["Constituição dos agentes", "as regras da casa e os casos difíceis, num modelo para preencher", "https://inematds.github.io/constituicao-agentes/guia/"],
-      ["Kit do arquiteto de agentes", "sete blocos que viram a especificação de um agente", "https://inematds.github.io/kit-arquiteto-agentes/"],
-      ["Gestão de agentes em vídeo", "a série completa sobre gerir agentes como uma equipe", "https://inematds.github.io/gestor-de-agentes/videos/"],
-      ["Profissional 2030", "as formações de consultor, auditor, mentor e treinador", "https://eventos.inema.pro/prof2030/"]
+      ["Constituição dos agentes", "as regras da casa e os casos difíceis, num modelo para preencher", "https://linnoff88-dev.github.io/
+      ["Kit do arquiteto de agentes", "sete blocos que viram a especificação de um agente", "https://linnoff88-dev.github.io/
+      ["Gestão de agentes em vídeo", "a série completa sobre gerir agentes como uma equipe", "https://linnoff88-dev.github.io/
+      ["Profissional 2030", "as formações de consultor, auditor, mentor e treinador", "https://eventos.ARCKHÉ.pro/prof2030/"]
     ]
   },
   "video": {"chip": "Vídeo", "h2": "A regra 5-4-3 em vídeo", "sub": "O explicativo completo e um reel curto para mandar para quem precisa ouvir isso.", "longo": "Explicativo (16:9)", "reel": "Reel (9:16)", "baixar": "Baixar MP4"},

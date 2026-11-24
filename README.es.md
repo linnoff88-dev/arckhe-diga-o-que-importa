@@ -1,6 +1,6 @@
 # Di lo que importa
 
-[![Di lo que importa](guia/assets/banner-es.jpg)](https://inematds.github.io/diga-o-que-importa/guia/es/)
+[![Di lo que importa](guia/assets/banner-es.jpg)](https://linnoff88-dev.github.io/
 
 **🇧🇷 [Português](README.md) · 🇺🇸 [English](README.en.md) · 🇪🇸 [Español](README.es.md)**
 
@@ -10,7 +10,7 @@ Esta es una guía gratis para quienes quieren poner a trabajar agentes de IA en 
 
 ## 📖 Guía
 
-Guía completa (gestor, regla 5-4-3, técnico y kit): **https://inematds.github.io/diga-o-que-importa/guia/es/**
+Guía completa (gestor, regla 5-4-3, técnico y kit): **https://linnoff88-dev.github.io/
 
 ## Qué hay aquí
 
@@ -21,4 +21,4 @@ python3 src/build.py
 ```
 
 ---
-[INEMA.CLUB](https://inema.club)
+[ARCKHÉ AI](https://ARCKHÉ AI)

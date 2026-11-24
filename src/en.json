@@ -2,7 +2,7 @@
   "lang": "en",
   "title": "Say What Matters",
   "tagline": "the manager, the IT professional, and the agent",
-  "meta": "The manager already knows the hardest part: how the business works. They just need to learn to talk to the agent. The 5-4-3 rule, four new IT roles, and ready-to-copy templates. Free, from INEMA.CLUB.",
+  "meta": "The manager already knows the hardest part: how the business works. They just need to learn to talk to the agent. The 5-4-3 rule, four new IT roles, and ready-to-copy templates. Free, from ARCKHÉ AI.",
   "nav": {"gestor": "Manager", "regra": "5-4-3 Rule", "tecnico": "IT Professional", "kit": "Kit", "video": "Video", "github": "GitHub", "tema": "Toggle theme"},
   "hero": {
     "chip": "AI agents · for managers and IT teams",
@@ -67,7 +67,7 @@
       ["🎓", "Trainer", "Prepares the team and agents using real company cases until each can get them right without help.", "Uses: the 3 cases as an exercise"],
       ["🗺️", "Consultant", "Maps the processes and decides where the agent fits—and where AI is not needed.", "Uses: six-link map"]
     ],
-    "prof": "These four roles are the four Professional 2030 training programs from INEMA.",
+    "prof": "These four roles are the four Professional 2030 training programs from ARCKHÉ.",
     "prof_link": "Learn about Professional 2030"
   },
   "exemplo": {
@@ -102,12 +102,12 @@
       {"quem": "IT professional · auditor", "titulo": "One-page report", "p": "Give this to the manager after testing the agents.",
        "txt": "1. One-page summary\n2. Inventory: which agents, what they do, and who is responsible for them\n3. Risks, impacts, and evidence\n4. Recommendations: now / 7 days / 30 days\n5. Limitations: what was not tested\n6. Follow-up proposal (optional)"}
     ],
-    "mais_h3": "Explore further at INEMA",
+    "mais_h3": "Explore further at ARCKHÉ",
     "mais": [
-      ["Agent constitution", "house rules and difficult cases in a fill-in template", "https://inematds.github.io/constituicao-agentes/guia/"],
-      ["Agent architect's kit", "seven blocks that become an agent specification", "https://inematds.github.io/kit-arquiteto-agentes/"],
-      ["Managing agents on video", "the complete series on managing agents as a team", "https://inematds.github.io/gestor-de-agentes/videos/"],
-      ["Professional 2030", "training programs for consultants, auditors, mentors, and trainers", "https://eventos.inema.pro/prof2030/"]
+      ["Agent constitution", "house rules and difficult cases in a fill-in template", "https://linnoff88-dev.github.io/
+      ["Agent architect's kit", "seven blocks that become an agent specification", "https://linnoff88-dev.github.io/
+      ["Managing agents on video", "the complete series on managing agents as a team", "https://linnoff88-dev.github.io/
+      ["Professional 2030", "training programs for consultants, auditors, mentors, and trainers", "https://eventos.ARCKHÉ.pro/prof2030/"]
     ]
   },
   "video": {"chip": "Video", "h2": "The 5-4-3 rule on video", "sub": "The full explainer and a short reel to send to anyone who needs to hear this.", "longo": "Explainer (16:9)", "reel": "Reel (9:16)", "baixar": "Download MP4"},

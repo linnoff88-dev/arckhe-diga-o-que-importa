@@ -1,6 +1,6 @@
 # Say What Matters
 
-[![Say What Matters](guia/assets/banner-en.jpg)](https://inematds.github.io/diga-o-que-importa/guia/en/)
+[![Say What Matters](guia/assets/banner-en.jpg)](https://linnoff88-dev.github.io/
 
 **🇧🇷 [Português](README.md) · 🇺🇸 [English](README.en.md) · 🇪🇸 [Español](README.es.md)**
 
@@ -10,7 +10,7 @@ This is a free guide for anyone who wants to put AI agents to work in a company.
 
 ## 📖 Guide
 
-Full guide (manager, 5-4-3 rule, tech and kit): **https://inematds.github.io/diga-o-que-importa/guia/en/**
+Full guide (manager, 5-4-3 rule, tech and kit): **https://linnoff88-dev.github.io/
 
 ## What is here
 
@@ -21,4 +21,4 @@ python3 src/build.py
 ```
 
 ---
-[INEMA.CLUB](https://inema.club)
+[ARCKHÉ AI](https://ARCKHÉ AI)

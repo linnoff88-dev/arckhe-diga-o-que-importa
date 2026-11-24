@@ -1,4 +1,4 @@
-﻿# Diga o que importa
+# Diga o que importa
 
 <div align="center">
   <img src="capa/logo.svg" alt="Arckhé AI" height="48" />
@@ -6,7 +6,7 @@
 </div>
 
 
-[![Diga o que importa](guia/assets/banner.jpg)](https://inematds.github.io/diga-o-que-importa/guia/)
+[![Diga o que importa](guia/assets/banner.jpg)](https://linnoff88-dev.github.io/
 
 **ðŸ‡§ðŸ‡· [PortuguÃªs](README.md) Â· ðŸ‡ºðŸ‡¸ [English](README.en.md) Â· ðŸ‡ªðŸ‡¸ [EspaÃ±ol](README.es.md)**
 
@@ -16,7 +16,7 @@ Este Ã© um guia grÃ¡tis para quem quer colocar agentes de IA para trabalhar 
 
 ## ðŸ“– Guia de uso
 
-Guia completo (gestor, regra 5-4-3, tÃ©cnico e kit): **https://inematds.github.io/diga-o-que-importa/guia/**
+Guia completo (gestor, regra 5-4-3, tÃ©cnico e kit): **https://linnoff88-dev.github.io/
 
 ## O que tem aqui
 
@@ -27,7 +27,7 @@ python3 src/build.py
 ```
 
 ---
-[INEMA.CLUB](https://inema.club)
+[ARCKHÉ AI](https://ARCKHÉ AI)
 
 ---
 

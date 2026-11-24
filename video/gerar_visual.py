@@ -117,7 +117,7 @@ S["9"] = {"shots": [
         {"label": "Gestor", "value": "o que importa e por quê", "at": "O gestor diz"},
         {"label": "Técnico", "value": "o como e a prova", "at": "O técnico garante"},
         {"label": "Agente", "value": "executa", "at": "o agente executa"}]},
-    img("10-guia.png", "O guia completo", "**inema.club** · guia grátis", zoom=(1.0, 1.05)),
+    img("10-guia.png", "O guia completo", "**ARCKHÉ AI** · guia grátis", zoom=(1.0, 1.05)),
 ]}
 
 # conferência das deixas
