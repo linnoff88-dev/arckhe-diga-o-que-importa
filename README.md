@@ -8,26 +8,26 @@
 
 [![Diga o que importa](guia/assets/banner.jpg)](https://linnoff88-dev.github.io/
 
-**ðŸ‡§ðŸ‡· [PortuguÃªs](README.md) Â· ðŸ‡ºðŸ‡¸ [English](README.en.md) Â· ðŸ‡ªðŸ‡¸ [EspaÃ±ol](README.es.md)**
+**ê°Å¸â¡Â§ê°Å¸â¡Â· [PortuguêÂªs](README.md) êÂ· ê°Å¸â¡Âºê°Å¸â¡Â¸ [English](README.en.md) êÂ· ê°Å¸â¡Âªê°Å¸â¡Â¸ [EspaêÂ±ol](README.es.md)**
 
-## O que Ã©
+## O que êÂ©
 
-Este Ã© um guia grÃ¡tis para quem quer colocar agentes de IA para trabalhar numa empresa. A ideia central: o gestor jÃ¡ conhece os processos, os clientes, os fornecedores e a equipe, que Ã© a parte mais difÃ­cil, e sÃ³ precisa aprender a passar isso ao agente. Para isso existe a regra 5-4-3: cinco perguntas, quatro nÃ­veis de autonomia e trÃªs casos de teste. O guia tambÃ©m mostra como o tÃ©cnico de TI muda de papel, de quem constrÃ³i para mentor, auditor, treinador e consultor. Tem modelos prontos para copiar e nÃ£o precisa programar.
+Este êÂ© um guia grêÂ¡tis para quem quer colocar agentes de IA para trabalhar numa empresa. A ideia central: o gestor jêÂ¡ conhece os processos, os clientes, os fornecedores e a equipe, que êÂ© a parte mais difêÂ­cil, e sêÂ³ precisa aprender a passar isso ao agente. Para isso existe a regra 5-4-3: cinco perguntas, quatro nêÂ­veis de autonomia e trêÂªs casos de teste. O guia tambêÂ©m mostra como o têÂ©cnico de TI muda de papel, de quem constrêÂ³i para mentor, auditor, treinador e consultor. Tem modelos prontos para copiar e nêÂ£o precisa programar.
 
-## ðŸ“– Guia de uso
+## ê°Å¸ââ Guia de uso
 
-Guia completo (gestor, regra 5-4-3, tÃ©cnico e kit): **https://linnoff88-dev.github.io/
+Guia completo (gestor, regra 5-4-3, têÂ©cnico e kit): **https://linnoff88-dev.github.io/
 
 ## O que tem aqui
 
-guia/ â€” a pÃ¡gina (PT/EN/ES), gerada por src/build.py a partir de src/pt.json, en.json e es.json.
-video/ â€” scripts das ilustraÃ§Ãµes e dos banners.
+guia/ ê¢â¬â a pêÂ¡gina (PT/EN/ES), gerada por src/build.py a partir de src/pt.json, en.json e es.json.
+video/ ê¢â¬â scripts das ilustraêÂ§êÂµes e dos banners.
 ```bash
 python3 src/build.py
 ```
 
 ---
-[ARCKHÉ AI](https://ARCKHÉ AI)
+[ARCKHê AI](https://ARCKHê AI)
 
 ---
 

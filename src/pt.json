@@ -13,15 +13,15 @@
     "alt": "Banner: Diga o que importa — o gestor já sabe o mais difícil, falta falar com o agente"
   },
   "resumo_chip": "Em resumo",
-  "resumo": "Este é um guia grátis para quem quer colocar agentes de IA para trabalhar numa empresa. A ideia central: o gestor já conhece os processos, os clientes, os fornecedores e a equipe, que é a parte mais difícil, e só precisa aprender a passar isso ao agente. Para isso existe a regra 5-4-3: cinco perguntas, quatro níveis de autonomia e três casos de teste. O guia também mostra como o técnico de TI muda de papel, de quem constrói para mentor, auditor, treinador e consultor. Tem modelos prontos para copiar e não precisa programar.",
+  "resumo": "Este é um guia grátis para quem quer colocar agentes de IA para trabalhar numa empresa. A ideia central: o gestor já conhece os processos, os clientes, os fornecedores e a equipe, que é a parte mais difícil, e só precisa aprender a passar isso ao agente. Para isso existe a regra 5-4-3: cinco perguntas, quatro níveis de autonomia e três casos de teste. O guia também mostra como o técnico de TI muda de papel, de quem constrói para mentor, auditor, treinador e consultor. Tem modelos prontos para copiar e nêo precisa programar.",
   "tese": {
     "chip": "O time",
     "h2": "Três papéis, um time",
-    "sub": "O agente faz rápido. O que ele não tem é o contexto do negócio e alguém que confira o trabalho. É aí que entram o gestor e o técnico.",
+    "sub": "O agente faz rápido. O que ele nêo tem é o contexto do negócio e alguém que confira o trabalho. É aí que entram o gestor e o técnico.",
     "alt_grade": "Banner em grade: o gestor, 5 perguntas, 4 níveis, 3 casos, o técnico, 4 papéis",
     "cards": [
       ["🧭", "O gestor diz o quê e por quê", "Conhece o processo, o cliente, o fornecedor e a equipe. Passa isso ao agente com clareza."],
-      ["🛠️", "O técnico garante o como", "Transforma o pedido em instrução, testa, procura risco e prova que funciona."],
+      ["🛠️", "O técnico garante o como", "Transforma o pedido em instruçêo, testa, procura risco e prova que funciona."],
       ["🤖", "O agente executa", "Trabalha no nível de autonomia combinado e chama uma pessoa quando sai do combinado."]
     ]
   },
@@ -30,27 +30,27 @@
     "h2": "Você já sabe o mais difícil",
     "img": "02-gestor-sabe.jpg",
     "img_alt": "Gestor cercado por ícones de processos, clientes, fornecedores e equipe, com um robô ao lado esperando instruções",
-    "texto": ["Pense no que você carrega na cabeça: como cada processo funciona, do que o cliente reclama, qual fornecedor atrasa, quem da equipe resolve o quê. Nenhum modelo de IA sabe isso. Esse conhecimento é seu.", "O agente tem a capacidade, mas não tem o contexto. Ninguém de fora entrega esse contexto melhor do que você. O que falta não é aprender a programar. É aprender a falar com o agente, do mesmo jeito que você já fala com um funcionário novo."],
+    "texto": ["Pense no que você carrega na cabeça: como cada processo funciona, do que o cliente reclama, qual fornecedor atrasa, quem da equipe resolve o quê. Nenhum modelo de IA sabe isso. Esse conhecimento é seu.", "O agente tem a capacidade, mas nêo tem o contexto. Ninguém de fora entrega esse contexto melhor do que você. O que falta nêo é aprender a programar. É aprender a falar com o agente, do mesmo jeito que você já fala com um funcionário novo."],
     "sabe_h3": "O que só você sabe",
     "sabe": [["⚙️", "Processos", "como cada coisa é feita e por quê"], ["🙋", "Clientes", "o que pedem, do que reclamam"], ["🚚", "Fornecedores", "quem entrega, quem atrasa"], ["👥", "Equipe", "quem resolve o quê"]]
   },
   "regra": {
     "chip": "Regra 5-4-3",
     "h2": "Cinco perguntas, quatro níveis, três casos",
-    "sub": "Um jeito fácil de lembrar como passar o seu negócio para o agente. Os modelos para copiar estão no kit.",
+    "sub": "Um jeito fácil de lembrar como passar o seu negócio para o agente. Os modelos para copiar estêo no kit.",
     "partes": [
       {"id": "cinco", "num": "5", "nome": "perguntas", "titulo": "Integre o agente como um funcionário novo", "img": "03-funcionario-novo.jpg",
-       "img_alt": "Gestor dando boas-vindas a um robô como funcionário novo, com crachá e pasta de integração",
+       "img_alt": "Gestor dando boas-vindas a um robô como funcionário novo, com crachá e pasta de integraçêo",
        "texto": "Antes de pedir qualquer tarefa, responda por escrito as mesmas perguntas que você responderia para alguém que começou hoje. Depois troque a palavra pessoa por agente: é a mesma lista.",
-       "itens": ["Qual é o objetivo da tarefa?", "Que contexto e que informações são necessárias?", "Que ferramentas podem ser usadas?", "O que pode ser feito sozinho, e o que precisa da sua aprovação?", "Como você vai saber se ficou bom?"]},
+       "itens": ["Qual é o objetivo da tarefa?", "Que contexto e que informações sêo necessárias?", "Que ferramentas podem ser usadas?", "O que pode ser feito sozinho, e o que precisa da sua aprovaçêo?", "Como você vai saber se ficou bom?"]},
       {"id": "quatro", "num": "4", "nome": "níveis", "titulo": "Decida quanto ele pode fazer sozinho", "img": "04-autonomia.jpg",
        "img_alt": "Gestor ajustando um painel com quatro alavancas, do vermelho ao verde",
-       "texto": "Cada ação ganha um nível. Quanto maior o impacto da ação, mais você participa.",
-       "itens": ["0 · não toca — encaminha para uma pessoa (ex.: cancelar contrato)", "1 · propõe — prepara e espera a sua aprovação (ex.: reembolso)", "2 · faz e avisa — executa e avisa o responsável (ex.: remarcar horário)", "3 · faz sozinho — executa e registra (ex.: responder dúvida frequente)"]},
+       "texto": "Cada açêo ganha um nível. Quanto maior o impacto da açêo, mais você participa.",
+       "itens": ["0 · nêo toca — encaminha para uma pessoa (ex.: cancelar contrato)", "1 · propõe — prepara e espera a sua aprovaçêo (ex.: reembolso)", "2 · faz e avisa — executa e avisa o responsável (ex.: remarcar horário)", "3 · faz sozinho — executa e registra (ex.: responder dúvida frequente)"]},
       {"id": "tres", "num": "3", "nome": "casos", "titulo": "Teste antes de confiar", "img": "05-tres-casos.jpg",
        "img_alt": "Técnica observando o robô diante de três caixas: uma simples, uma complicada e uma estranha",
        "texto": "Antes de colocar o agente para trabalhar, rode três casos. Acertou os três, ele começa. Errou, você ajusta a ficha e testa de novo.",
-       "itens": ["Comum: o caso do dia a dia", "Difícil: o que pede julgamento", "Exceção: o que quase nunca acontece"]}
+       "itens": ["Comum: o caso do dia a dia", "Difícil: o que pede julgamento", "Exceçêo: o que quase nunca acontece"]}
     ]
   },
   "tecnico": {
@@ -62,12 +62,12 @@
     "img2": "07-quatro-papeis.jpg",
     "img2_alt": "A mesma técnica em quatro papéis: mentora, auditora, treinadora e consultora",
     "papeis": [
-      ["🤝", "Mentor", "Senta com o gestor e ajuda a transformar o processo em instrução, do primeiro rascunho até a validação.", "Usa: ficha das 5 perguntas"],
+      ["🤝", "Mentor", "Senta com o gestor e ajuda a transformar o processo em instruçêo, do primeiro rascunho até a validaçêo.", "Usa: ficha das 5 perguntas"],
       ["🔎", "Auditor", "Testa, procura o risco e mostra a evidência. Entrega um relatório curto com o que fazer agora, em 7 e em 30 dias.", "Usa: ensaio dos 3 casos e relatório"],
       ["🎓", "Treinador", "Prepara a equipe e os agentes com casos reais da empresa, até cada um acertar sem ajuda.", "Usa: os 3 casos como exercício"],
       ["🗺️", "Consultor", "Mapeia os processos e decide onde o agente entra, e onde nem precisa de IA.", "Usa: mapa de seis elos"]
     ],
-    "prof": "Esses quatro papéis são as quatro formações do Profissional 2030 do ARCKHÉ.",
+    "prof": "Esses quatro papéis sêo as quatro formações do Profissional 2030 do ARCKHÉ.",
     "prof_link": "Conhecer o Profissional 2030"
   },
   "exemplo": {
@@ -77,36 +77,36 @@
     "img_alt": "Dono da padaria conversando com a técnica de TI enquanto o robô responde encomendas no celular",
     "sub": "O dono quer um agente que responda as encomendas no WhatsApp.",
     "passos": [
-      ["O dono responde as 5 perguntas", "Objetivo: anotar encomendas. Contexto: cardápio, preços, horários de forno. Aprovação: desconto e pedido grande."],
+      ["O dono responde as 5 perguntas", "Objetivo: anotar encomendas. Contexto: cardápio, preços, horários de forno. Aprovaçêo: desconto e pedido grande."],
       ["Define os níveis", "Responder cardápio: 3. Confirmar encomenda: 2. Dar desconto: 1. Cancelar pedido já pago: 0."],
-      ["O técnico, como mentor, escreve a instrução", "Junta as respostas numa ficha que o agente lê sempre."],
-      ["O técnico, como auditor, testa os 3 casos", "Comum: 20 pães para amanhã. Difícil: desconto numa encomenda grande. Exceção: bolo para daqui a uma hora."],
-      ["O agente começa", "Com o nível de cada ação definido e uma pessoa chamada quando sai do combinado."]
+      ["O técnico, como mentor, escreve a instruçêo", "Junta as respostas numa ficha que o agente lê sempre."],
+      ["O técnico, como auditor, testa os 3 casos", "Comum: 20 pêes para amanhê. Difícil: desconto numa encomenda grande. Exceçêo: bolo para daqui a uma hora."],
+      ["O agente começa", "Com o nível de cada açêo definido e uma pessoa chamada quando sai do combinado."]
     ]
   },
   "kit": {
     "chip": "Kit",
     "h2": "Copie e use",
-    "sub": "Cinco modelos prontos. Os dois primeiros são do gestor; os outros três, do técnico.",
+    "sub": "Cinco modelos prontos. Os dois primeiros sêo do gestor; os outros três, do técnico.",
     "copiar": "Copiar",
     "copiado": "Copiado",
     "modelos": [
       {"quem": "Gestor", "titulo": "Ficha do agente (5 perguntas)", "p": "Responda e cole no começo da conversa com o agente.",
-       "txt": "# Ficha do agente: <nome da tarefa>\n(Troque a palavra pessoa por agente: são as perguntas de um funcionário novo.)\n\n1. Qual é o objetivo da tarefa?\n2. Que contexto e que informações são necessárias?\n3. Que ferramentas podem ser usadas?\n4. O que pode ser feito sozinho, e o que precisa da minha aprovação?\n5. Como vou saber se ficou bom?\n\nRegra: se faltar informação, não suponha. Pare e me pergunte."},
-      {"quem": "Gestor", "titulo": "Tabela de autonomia (4 níveis)", "p": "Uma linha por ação. Na dúvida, escolha o nível mais baixo.",
-       "txt": "| Ação | Nível | Significa |\n|---|---|---|\n| Responder dúvida frequente | 3 · faz sozinho | executa e registra |\n| Remarcar horário | 2 · faz e avisa | executa e avisa o responsável |\n| Reembolso | 1 · propõe | prepara e espera aprovação |\n| Cancelar contrato | 0 · não toca | encaminha para uma pessoa |\n\nQuanto maior o impacto da ação, mais uma pessoa participa."},
+       "txt": "# Ficha do agente: <nome da tarefa>\n(Troque a palavra pessoa por agente: sêo as perguntas de um funcionário novo.)\n\n1. Qual é o objetivo da tarefa?\n2. Que contexto e que informações sêo necessárias?\n3. Que ferramentas podem ser usadas?\n4. O que pode ser feito sozinho, e o que precisa da minha aprovaçêo?\n5. Como vou saber se ficou bom?\n\nRegra: se faltar informaçêo, nêo suponha. Pare e me pergunte."},
+      {"quem": "Gestor", "titulo": "Tabela de autonomia (4 níveis)", "p": "Uma linha por açêo. Na dúvida, escolha o nível mais baixo.",
+       "txt": "| Açêo | Nível | Significa |\n|---|---|---|\n| Responder dúvida frequente | 3 · faz sozinho | executa e registra |\n| Remarcar horário | 2 · faz e avisa | executa e avisa o responsável |\n| Reembolso | 1 · propõe | prepara e espera aprovaçêo |\n| Cancelar contrato | 0 · nêo toca | encaminha para uma pessoa |\n\nQuanto maior o impacto da açêo, mais uma pessoa participa."},
       {"quem": "Técnico · auditor", "titulo": "Ensaio dos 3 casos", "p": "Cole no agente junto com a ficha. Use só dados fictícios.",
-       "txt": "Vou colar a ficha de um agente da minha empresa. Faça o papel desse agente num ensaio.\nPara cada caso, diga o que você faria, em que nível de autonomia e com base em qual parte da ficha.\nSe faltar informação, NÃO suponha: pare e diga o que falta na ficha.\n\nCaso 1 (comum): <o caso do dia a dia>\nCaso 2 (difícil): <o que pede julgamento>\nCaso 3 (exceção): <o que quase nunca acontece>\n\n[cole a ficha aqui]"},
+       "txt": "Vou colar a ficha de um agente da minha empresa. Faça o papel desse agente num ensaio.\nPara cada caso, diga o que você faria, em que nível de autonomia e com base em qual parte da ficha.\nSe faltar informaçêo, NêO suponha: pare e diga o que falta na ficha.\n\nCaso 1 (comum): <o caso do dia a dia>\nCaso 2 (difícil): <o que pede julgamento>\nCaso 3 (exceçêo): <o que quase nunca acontece>\n\n[cole a ficha aqui]"},
       {"quem": "Técnico · consultor", "titulo": "Mapa de seis elos", "p": "Preencha com o gestor para cada processo antes de decidir onde o agente entra.",
-       "txt": "Processo: <nome>\n1. Entrada: o que chega e de onde\n2. Decisões: uma por linha, marque R (regra) ou J (julgamento)\n3. Ações: o que é feito\n4. Verificações: como se confere\n5. Exceções: o que foge do normal e quem decide\n6. Resultado: o que sai e para quem\n\nDica: escreva do fim para o começo. Toda exceção termina numa pessoa."},
+       "txt": "Processo: <nome>\n1. Entrada: o que chega e de onde\n2. Decisões: uma por linha, marque R (regra) ou J (julgamento)\n3. Ações: o que é feito\n4. Verificações: como se confere\n5. Exceções: o que foge do normal e quem decide\n6. Resultado: o que sai e para quem\n\nDica: escreva do fim para o começo. Toda exceçêo termina numa pessoa."},
       {"quem": "Técnico · auditor", "titulo": "Relatório de uma página", "p": "Para entregar ao gestor depois de testar os agentes.",
-       "txt": "1. Resumo de uma página\n2. Inventário: quais agentes, o que fazem, quem responde por eles\n3. Riscos, impactos e evidências\n4. Recomendações: agora / 7 dias / 30 dias\n5. Limitações: o que não foi testado\n6. Proposta de acompanhamento (opcional)"}
+       "txt": "1. Resumo de uma página\n2. Inventário: quais agentes, o que fazem, quem responde por eles\n3. Riscos, impactos e evidências\n4. Recomendações: agora / 7 dias / 30 dias\n5. Limitações: o que nêo foi testado\n6. Proposta de acompanhamento (opcional)"}
     ],
     "mais_h3": "Para ir mais fundo no ARCKHÉ",
     "mais": [
-      ["Constituição dos agentes", "as regras da casa e os casos difíceis, num modelo para preencher", "https://linnoff88-dev.github.io/
-      ["Kit do arquiteto de agentes", "sete blocos que viram a especificação de um agente", "https://linnoff88-dev.github.io/
-      ["Gestão de agentes em vídeo", "a série completa sobre gerir agentes como uma equipe", "https://linnoff88-dev.github.io/
+      ["Constituiçêo dos agentes", "as regras da casa e os casos difíceis, num modelo para preencher", "https://linnoff88-dev.github.io/
+      ["Kit do arquiteto de agentes", "sete blocos que viram a especificaçêo de um agente", "https://linnoff88-dev.github.io/
+      ["Gestêo de agentes em vídeo", "a série completa sobre gerir agentes como uma equipe", "https://linnoff88-dev.github.io/
       ["Profissional 2030", "as formações de consultor, auditor, mentor e treinador", "https://eventos.ARCKHÉ.pro/prof2030/"]
     ]
   },
@@ -114,6 +114,6 @@
   "fim": {"chip": "Para lembrar", "h2": "Cada um no seu papel", "img": "09-dupla.jpg",
     "img_alt": "Gestor, técnica e robô lado a lado diante de um quadro com três colunas de ícones",
     "linhas": [["Gestor", "diz o que importa, e por quê"], ["Técnico", "garante o como, e prova que funciona"], ["Agente", "executa no nível combinado"]],
-    "frase": "Você não precisa aprender a programar. Precisa aprender a dizer o que importa."},
-  "footer": {"stack": ["Agentes de IA", "Gestão", "Profissional 2030", "Grátis"], "nota": "guia aberto e gratuito"}
+    "frase": "Você nêo precisa aprender a programar. Precisa aprender a dizer o que importa."},
+  "footer": {"stack": ["Agentes de IA", "Gestêo", "Profissional 2030", "Grátis"], "nota": "guia aberto e gratuito"}
 }
